@@ -1,0 +1,22 @@
+body {
+  font-size: var(--fontSize);
+  font-family: var(--fontFamily);
+  color: #232323;
+  font-style: normal;
+  font-weight: 400;
+  scroll-behavior: smooth;
+
+  background-color: rgb(238, 222, 217);
+}
+
+.container {
+  max-width: var(--containerWidth);
+  margin: 0 auto;
+  padding: 0 var(--containerOffset);
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 7px 30px 0px rgba(34, 60, 80, 0.35);
+  -moz-box-shadow: 0px 7px 30px 0px rgba(34, 60, 80, 0.35);
+  box-shadow: 0px 7px 30px 0px rgba(34, 60, 80, 0.35);
+}

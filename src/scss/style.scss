@@ -1,0 +1,12 @@
+@import "./heplers/fonts";
+@import "./variables";
+@import "./heplers/reset";
+@import "./base";
+
+// // Components
+@import "./components/section";
+@import "./components/videoplayer";
+@import "./components/heading";
+
+// // Pages
+@import "./pages/home";

@@ -1,0 +1,21 @@
+.videoplayer {
+    --playerWidth: 100%;
+    --playerHeight: 560px;
+
+    display: block;
+
+    margin: 0;
+    padding: 0;
+
+    iframe {
+        display: block;
+
+        width: var(--playerWidth);
+        min-width: var(--playerWidth);
+        max-width: var(--playerWidth);
+
+        height: var(--playerHeight);
+        min-height: var(--playerHeight);
+        max-height: var(--playerHeight);
+    }
+}

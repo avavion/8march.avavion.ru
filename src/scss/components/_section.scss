@@ -1,0 +1,21 @@
+.section {
+  min-height: 80vh;
+  padding: 32px 0;
+
+  &.wallpaper {
+    position: relative;
+    min-height: auto;
+    padding: 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+}
