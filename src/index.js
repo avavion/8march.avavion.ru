@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       src: "/images/17.jpeg",
-      date: "17 июня 2022 года",
+      date: "24 января 2022 года",
     },
     {
       src: "/images/18.jpeg",
@@ -96,11 +96,11 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       src: "/images/21.jpeg",
-      date: "17 июня 2022 года",
+      date: "15 августа 2022 года",
     },
     {
       src: "/images/22.jpeg",
-      date: "17 июня 2022 года",
+      date: "26 ноября 2022 года",
     },
     {
       src: "/images/23.jpeg",
